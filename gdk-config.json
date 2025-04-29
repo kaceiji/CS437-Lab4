@@ -1,0 +1,16 @@
+{
+  "component" :{
+    "greengrasscomp": {
+      "author": "cozykace",
+      "version": "1.0.6",
+      "build": {
+        "build_system" :"zip"
+      },
+      "publish": {
+        "bucket": "greengrasscomp-artefacts",
+        "region": "us-east-1"
+      }
+    }
+  },
+  "gdk_version": "1.0.0"
+}
